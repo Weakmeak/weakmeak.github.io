@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+body {
+    font-family: Dosis;
+    margin: 0;
+    padding: 0;
+    background-color: #222;
+    color:white;
+}
+
+div.the-rest {
+    padding: 1%;
+}
+
+header {
+    overflow: hidden;
+    background-color: #333;
+    margin: 0;
+    padding: 20px 10px;
+}
+
+header a {
+    float: left;
+    color: #eee;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+}
+
+header a:hover {
+    background-color: #422c59;
+}
+
+header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
