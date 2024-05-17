@@ -16,6 +16,26 @@ div.the-rest {
     overflow: hidden;
 }
 
+.home-subtitle{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    font-size: 3cqw;
+    margin-bottom: -7%;
+    margin-top: 4%;
+}
+
+.mega-title{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 575;
+    font-style: normal;
+    text-align: center;
+    font-size: 8cqw;
+}
+
 header {
     overflow: hidden;
     background-color: #333;
@@ -41,26 +61,6 @@ header a:hover {
 header a.logo {
     font-size: 25px;
     font-weight: bold;
-}
-
-.home-subtitle{
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    text-align: center;
-    font-size: 3cqw;
-    margin-bottom: -7%;
-    margin-top: 4%;
-}
-
-.mega-title{
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 575;
-    font-style: normal;
-    text-align: center;
-    font-size: 8cqw;
 }
 
 @keyframes puff-in-center {
