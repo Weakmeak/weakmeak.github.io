@@ -8,6 +8,7 @@ body {
     background-color: #222;
     color:white;
     font-size: 3cqw;
+    overflow: hidden;
 }
 
 div.the-rest {
@@ -88,12 +89,13 @@ header a.logo {
     position: relative;
     width: 100%;
     mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+    -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
 }
 
 .ticker {
     display: flex;
-    width: 100%;
-    animation: ticker 7.45s linear infinite;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 .ticker-item {
@@ -104,9 +106,9 @@ header a.logo {
 
 @keyframes ticker {
     0% {
-        transform: translateX(0%);
+        transform: translateX(0);
     }
     100% {
-        transform: translateX(-170.95%);
+        transform: translateX(-50%);
     }
 }
