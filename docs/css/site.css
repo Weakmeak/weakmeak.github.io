@@ -31,6 +31,7 @@ header a.logo {
 
 body {
     font-family: Dosis;
+    font-weight: lighter;
     margin: 0;
     padding: 0;
     background-color: #222;
@@ -50,4 +51,35 @@ h1{
     font-style: normal;
     text-align: center;
     font-size:300%;
+}
+
+links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* space between the links */
+    padding: 20px;
+}
+
+links a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6cqw; /* Set the desired size for the circles */
+    height: 6cqw;
+    border-radius: 50%;
+    background-color: #840484; /* Background color of the circles */
+    box-shadow: 0 4px 6px rgba(220, 220, 220, 0.1);
+    text-decoration: none; /* Remove underline from links */
+    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+links a:hover {
+    transform: scale(1.1); /* Slightly enlarge the circle on hover */
+    box-shadow: 0 6px 8px rgba(220, 220, 220, 0.5); /* Slightly larger shadow on hover */
+}
+
+links img {
+    width: 50%; /* Ensure the SVG fits well inside the circle */
+    height: 50%;
 }
